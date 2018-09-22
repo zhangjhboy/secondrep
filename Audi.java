@@ -4,10 +4,10 @@ public class Audi
         public static void main(String[] args)
         {
                 int i = 0;
-	        int num = 10;//车辆数量
-	        Scanner input = new Scanner(System.in);
-	        Audi[] array = new Audi[num];
-	        //输入车辆信息
+	         int num = 10;//车辆数量
+	         Scanner input = new Scanner(System.in);
+	         Audi[] array = new Audi[num];
+	         //输入车辆信息
 	        for (i = 0; i < num; i++)
 	        {
 	                array[i] = new Audi();
